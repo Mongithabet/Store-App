@@ -58,3 +58,16 @@ header{
 .navbar-nav .basket-icon{
   margin-right: 6.5rem!important;  
 }
+/*Slider*/
+.site-slider{
+    position: relative;
+}
+.position-top{
+   position: absolute; 
+   top: 50%;
+}
+.site-slider .slider-btn .prev,
+.site-slider .slider-btn .next{
+background-color: var(--primary-color);
+padding: 1rem 1.5rem;
+}
